@@ -1,0 +1,17 @@
+/*http://admin.cms.com/css/*/
+
+
+@font-face {
+    font-family: "Open sans";
+    src: url(http://admin.cms.com/css/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Patua One";
+    src: url(http://admin.cms.com/css/fonts/PatuaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(http://admin.cms.com/css/fonts/RobotoSlab-Regular.ttf);
+}
