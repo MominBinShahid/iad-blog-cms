@@ -17139,3 +17139,1120 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1500539969.759
     'REQUEST_TIME' => 1500539969
 ]
+2017-07-21 01:53:35 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/controle_sony_playstation.jpg". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('uploads/control...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 01:53:35 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_IF_NONE_MATCH' => '\"1c4a9-554c794051423\"'
+    'HTTP_IF_MODIFIED_SINCE' => 'Thu, 20 Jul 2017 22:50:42 GMT'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.cms.com/post/my-index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '53975'
+    'REDIRECT_URL' => '/uploads/controle_sony_playstation.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/controle_sony_playstation.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500594815.397
+    'REQUEST_TIME' => 1500594815
+]
+2017-07-21 01:54:54 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/controle_sony_playstation.jpg". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('uploads/control...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 01:54:53 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.cms.com/post/my-index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '54484'
+    'REDIRECT_URL' => '/uploads/controle_sony_playstation.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/controle_sony_playstation.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500594893.844
+    'REQUEST_TIME' => 1500594893
+]
+2017-07-21 01:55:20 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/controle_sony_playstation.jpg". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('uploads/control...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 01:55:20 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.cms.com/post/my-index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '54642'
+    'REDIRECT_URL' => '/uploads/controle_sony_playstation.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/controle_sony_playstation.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500594920.058
+    'REQUEST_TIME' => 1500594920
+]
+2017-07-21 01:56:58 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/controle_sony_playstation.jpg". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('uploads/control...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 01:56:57 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.cms.com/post/my-index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '54997'
+    'REDIRECT_URL' => '/uploads/controle_sony_playstation.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/controle_sony_playstation.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500595017.786
+    'REQUEST_TIME' => 1500595017
+]
+2017-07-21 01:57:54 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/controle_sony_playstation.jpg". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('uploads/control...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 01:57:54 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.cms.com/post/my-view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '55083'
+    'REDIRECT_URL' => '/uploads/controle_sony_playstation.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/controle_sony_playstation.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500595074.102
+    'REQUEST_TIME' => 1500595074
+]
+2017-07-21 01:58:04 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/controle_sony_playstation.jpg". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('uploads/control...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 01:58:04 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://cms.com/post/my-index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '55103'
+    'REDIRECT_URL' => '/uploads/controle_sony_playstation.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/controle_sony_playstation.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500595083.978
+    'REQUEST_TIME' => 1500595083
+]
+2017-07-21 01:58:06 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap-toggle.min.js.map". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('js/bootstrap-to...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 01:58:06 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '55115'
+    'REDIRECT_URL' => '/js/bootstrap-toggle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/bootstrap-toggle.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500595086.03
+    'REQUEST_TIME' => 1500595086
+]
+2017-07-21 01:59:40 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/controle_sony_playstation.jpg". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('uploads/control...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 01:59:40 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://cms.com/post/my-view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '55267'
+    'REDIRECT_URL' => '/uploads/controle_sony_playstation.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/controle_sony_playstation.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500595180.277
+    'REQUEST_TIME' => 1500595180
+]
+2017-07-21 01:59:41 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap-toggle.min.js.map". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('js/bootstrap-to...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 01:59:40 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '55269'
+    'REDIRECT_URL' => '/js/bootstrap-toggle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/bootstrap-toggle.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500595180.755
+    'REQUEST_TIME' => 1500595180
+]
+2017-07-21 01:59:46 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap-toggle.min.js.map". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('js/bootstrap-to...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 01:59:45 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '55263'
+    'REDIRECT_URL' => '/js/bootstrap-toggle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/bootstrap-toggle.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500595185.789
+    'REQUEST_TIME' => 1500595185
+]
+2017-07-21 01:59:55 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap-toggle.min.js.map". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('js/bootstrap-to...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 01:59:55 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '55306'
+    'REDIRECT_URL' => '/js/bootstrap-toggle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/bootstrap-toggle.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500595195.144
+    'REQUEST_TIME' => 1500595195
+]
+2017-07-21 02:00:28 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap-toggle.min.js.map". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('js/bootstrap-to...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 02:00:28 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '55355'
+    'REDIRECT_URL' => '/js/bootstrap-toggle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/bootstrap-toggle.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500595228.173
+    'REQUEST_TIME' => 1500595228
+]
+2017-07-21 02:03:08 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap-toggle.min.js.map". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('js/bootstrap-to...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 02:03:08 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '55622'
+    'REDIRECT_URL' => '/js/bootstrap-toggle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/bootstrap-toggle.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500595388.618
+    'REQUEST_TIME' => 1500595388
+]
+2017-07-21 02:03:35 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap-toggle.min.js.map". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('js/bootstrap-to...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 02:03:35 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '55666'
+    'REDIRECT_URL' => '/js/bootstrap-toggle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/bootstrap-toggle.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500595414.988
+    'REQUEST_TIME' => 1500595414
+]
+2017-07-21 02:23:56 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/controle_sony_playstation.jpg". in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('uploads/control...', Array)
+#1 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\yii\cms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\yii\cms\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-07-21 02:23:56 [127.0.0.1][2][jdkhq4g2f985aaktg4s7h2qeiu][info][application] $_COOKIE = [
+    '_csrf-frontend' => '1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"1GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf\";}'
+    'advanced-frontend' => 'jdkhq4g2f985aaktg4s7h2qeiu'
+    '_identity-frontend' => '0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'cms.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_IF_NONE_MATCH' => '\"1c4a9-554c8d4bf15d0\"'
+    'HTTP_IF_MODIFIED_SINCE' => 'Fri, 21 Jul 2017 00:20:23 GMT'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.cms.com/post/my-index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=1323e0f87c25929c9d38cb634eb03fe12de7f384e90bfb679b5f38905ad6f1e9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%221GLKUZQ0PbDvDmhsFiUyS6WN7VRkBcvf%22%3B%7D; advanced-frontend=jdkhq4g2f985aaktg4s7h2qeiu; _identity-frontend=0bb110022aa228a8702673ae2d90c9a2fea4a06c50545ac037b464360568a8eaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22JtyM99pDJ-XSOOtBbQ6yZtY2ws4-hMXq%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jre1.8.0_121\\bin;E:\\Softwares\\Git\\cmd;C:\\Users\\Momin\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at cms.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'cms.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs/yii/cms/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/yii/cms/frontend/web/index.php'
+    'REMOTE_PORT' => '56464'
+    'REDIRECT_URL' => '/uploads/controle_sony_playstation.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/uploads/controle_sony_playstation.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1500596636.413
+    'REQUEST_TIME' => 1500596636
+]
